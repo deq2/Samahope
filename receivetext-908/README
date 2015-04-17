@@ -1,0 +1,7 @@
+To upload the app to Google App Engine:
+
+1. In the Samahope directory:
+2. Log into your app engine account.
+3. Command line
+appcfg.py -A receivetext-908 update receivetext-908/
+(appcfg.py -A projectID update projectDirectory/)
