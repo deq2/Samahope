@@ -1,7 +1,12 @@
-To upload the app to Google App Engine:
-
+0. Download GoogleAppEngineLauncher dmg file and install on your computer, and create an account (I believe we made a Samahope account).
 1. In the Samahope directory:
 2. Log into your app engine account.
-3. Command line
-appcfg.py -A samahope-15 update samahope-15 
+3. In the Google Developers Console, select from the drop-down at the top of the page "create new project". Create a name. If you navigate to the project home page, you will see the project has a project ID (usually the project name with some numbers behind it).
+3. Go to your command line, and enter the directory that contains your app, samahope-15.
+appcfg.py -A projectID update samahope-15 
 (appcfg.py -A projectID update projectDirectory/)
+4. Google app engine is now hosting the application, at projectID.appspot.com. To check the url, go to https://appengine.google.com/ and click on the "Running" link.
+
+Make a Twilio free trial account
+1. Create a number
+2. Go to Manage Numbers in your account. Under SMS&MMS, change the request URL to the URL of your application (probably projectID.appspot.com).

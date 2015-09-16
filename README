@@ -1,0 +1,25 @@
+Explanations of the contents of different folders:
+
+forms
+This is folder of the forms that Dr. Robert has sent to us.
+
+Demov1
+This is our simple 1st-version demo, which sets up a Twilio application using a local server, then using ngrok to upload the application to the cloud.
+
+samahope-15
+
+This is the main demo. The source code provided implements this application in Python. It uses the Twilio library to reserve a phone number that you text to use this application. We use Google app engine to upload the application itself to the cloud.
+
+This demos an application for entering data into a form using SMS messaging. You use the application in the following way:
+Text the number you acquired on your Twilio account "start".
+The app should respond: "1. Date of Registration".
+Continue entering information. If you make a mistake, type in "reset", and the app will start the entry from the beginning.
+When you are finished entering data, the app will repeat back the info you have entered.
+
+For instructions to run the demo, see the README in samahope-15.
+
+
+
+
+
+

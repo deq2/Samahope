@@ -1,4 +1,4 @@
-application: receivetext-908
+application: samahope-15
 version: 1
 runtime: python27
 api_version: 1
@@ -6,7 +6,7 @@ threadsafe: yes
 
 handlers:
 - url: .*
-  script: run.app
+  script: simulation.app
 
 libraries:
 - name: jinja2
